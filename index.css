@@ -1,0 +1,196 @@
+
+/* ---------------------------section - 1 --------------------------------- */
+
+#section-1{
+    width: 100%;
+    /* height: 1000px; */
+    background-color: #2C1338;
+    padding: 20px 30px 60px;
+}
+#rk_heading-1{
+    width: 70%;
+    /* border: 1px solid white; */
+    margin:  auto;
+    color: white;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 350;
+    font-size: 35px
+}
+
+/* -------------------- Font Colors----------------------- */
+.purple{
+    color: #E57CD8;
+    
+}
+.white{
+    color: #FFF3ED;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+/* ----------------------------- section 1 second div ----------------------------- */
+
+#section_1_second_div{
+    width: 70%;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#section_1_second_div>div:nth-child(1){
+    width: 50%;
+    /* border: 1px solid yellow; */
+   
+}
+
+
+#section_1_second_div>div:nth-child(1)>div:nth-child(1)>p{
+    font-size: 25px;
+}
+
+/* -------------------------Gap between two tags------------------- */
+
+.div_gap{
+    margin-top: 20px;
+}
+
+/* -----------------------Input tags ------------------------------ */
+
+.inputBox{
+   
+    width: 70%;
+    height: 20px;
+    padding: 12px;
+    background-color: #2C1338;
+   border: 2px solid gray;
+}
+#signupBtn{
+    width: 200px;
+    padding: 18px;
+    border-radius: 30px;
+    background-color: #E57CD8;
+    font-weight: bold;
+    border: none;
+}
+#signupBtn:hover{
+    background-color: #564260;
+    color: #FFF;
+}
+
+.smallSize{
+    font-size: 12px;
+}
+
+#section_1_second_div>div:nth-child(1)>div:nth-child(3){
+    /* width: 90%; */
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+}
+#section_1_second_div>div:nth-child(1)>div:nth-child(3)>div:nth-child(2){
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.imgSize{
+    border-radius: 50px;
+    border: none;
+    /* margin-top: 20px; */
+}
+
+.imgSize>img{
+   
+    width: 30px;
+    border-radius: 50px;
+}
+
+/* ----------------------------------timer div------------------ */
+
+#section_1_second_div>div:nth-child(2){
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+
+#timer{
+    width: 350px;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer>img{
+    width: 40px;
+}
+#section_1_second_div>div:nth-child(2)>div:nth-child(2){
+    /* border: 1px solid blue; */
+    width: 70%;
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+#section_1_second_div>div:nth-child(2)>div:nth-child(2)>p:nth-child(1){
+    font-size: 22px;
+    line-height: 1.35;
+
+}
+#section_1_second_div>div:nth-child(2)>div:nth-child(2)>p:nth-child(2){
+    float: right;
+}
+
+#section_1_third_div{
+    width: 65%;
+    border: 1px solid pink;
+    margin: 50px auto;
+    background-color: #FCE5D8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#section_1_third_div>div{
+    display: flex;
+    width: 28%;
+    padding-right: 10px;
+    
+}
+#section_1_third_div>div:nth-child(1){
+    border-right: 1px solid black;
+}
+#section_1_third_div>div:nth-child(2){
+    border-right: 1px solid black;
+}
+
+#section_1_third_div>div>img{
+    margin-right: 20px;
+}
+
+#section_1_last-line{
+    width: 18%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_1_last-line>p:nth-child(1){
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#section_1_last-line>p:nth-child(2){
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+#right-dir{
+    width: 7px;
+}
+.removeUnderline{
+   text-decoration: none;
+}
