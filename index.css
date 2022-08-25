@@ -184,7 +184,7 @@
     font-size: 16px;
     font-family: 'Inter', sans-serif;
 }
-#section_1_last-line>p:nth-child(2){
+#section_1_zlast-line>p:nth-child(2){
     font-family: 'GT Haptik Medium',sans-serif;
 }
 
@@ -193,4 +193,133 @@
 }
 .removeUnderline{
    text-decoration: none;
+}
+
+/* --------------------------------Section-2 CSS Start -------------------------------- */
+
+#section-2{
+    width: 100%;
+    padding-top: 100px;
+    /* height: 1000px; */
+    background-color: #FFF3ED;
+    /* border: 0.01px solid black; */
+}
+
+#rk-heading-2{
+    width: 55%;
+    border: 1px solid black;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    /* margin-top: 0px; */
+}
+
+#rk-heading-2 h2{
+    color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+    /* font-weight: 400; */
+    line-height: 1.2;
+    
+}
+
+#contain-2-div{
+    width: 75%;
+    /* border: 1px solid blue; */
+    /* height: 100px; */
+    margin: auto;
+    display: flex;
+    
+}
+#contain-2-div>div{
+    width: 43%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 25px;
+}
+
+#contain-2-div>div>p{
+    font-weight: bold;
+
+}
+
+#section-2-div-1{
+    background-color: #FAE5F7;
+
+}
+
+#section-2-div-2{
+    background-color: #FCE5D8;
+    
+}
+
+.commonDiv>h3{
+    font-size: 25px;
+    margin-top: 10px;
+   
+}
+
+.commonBtn1{
+    width: 150px;
+    padding: 18px;
+    border-radius: 30px;
+    background-color: #E57CD8;
+    font-size: 15px;
+    border: none;
+    color: #FAE5F7;
+    font-weight: bolder;
+}
+.commonBtn1:hover{
+    background-color: #564260;
+    color: #FFF;
+}
+
+.commonDiv>div:nth-child(4)>img{
+    width: 400px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+
+.commonDiv>p>a{
+    font-size: 14px;
+    color: #564260;
+    font-weight: 100;
+}
+.dashLine{
+    width: 10px;
+    color: black;
+}
+
+#contain-3-div{
+    width: 75%;
+    /* border: 1px solid blue; */
+    /* height: 100px; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contain-3-div>div{
+    width: 27%;
+    /* border: 1px solid red; */
+    padding: 20px 20px 15px;
+
+}
+#contain-3-div>div>p:nth-child(1){
+    font-weight: bold;
+}
+#contain-3-div>div>h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #412A4C;
+}
+#contain-3-div>div:nth-child(1){
+    background-color: #FCE5D8;
+}
+#contain-3-div>div:nth-child(2){
+    background-color: #ffebbd;
+}
+#contain-3-div>div:nth-child(3){
+    background-color: #FAE5F7;
 }
