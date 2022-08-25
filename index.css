@@ -1,4 +1,9 @@
-
+*{
+    box-sizing: border-box;
+    font-family: 'GT Haptik Medium',sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 /* ---------------------------section - 1 --------------------------------- */
 
 #section-1{
@@ -56,14 +61,13 @@
 /* -----------------------Input tags ------------------------------ */
 
 .inputBox{
-   
     width: 70%;
     height: 20px;
     padding: 12px;
     background-color: #2C1338;
    border: 2px solid gray;
 }
-#signupBtn{
+.commonBtn{
     width: 200px;
     padding: 18px;
     border-radius: 30px;
@@ -71,7 +75,7 @@
     font-weight: bold;
     border: none;
 }
-#signupBtn:hover{
+.commonBtn:hover{
     background-color: #564260;
     color: #FFF;
 }
@@ -194,3 +198,6 @@
 .removeUnderline{
    text-decoration: none;
 }
+
+
+
