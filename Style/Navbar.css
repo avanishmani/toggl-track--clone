@@ -1,0 +1,25 @@
+#nztopblack{
+    width: 100%;
+   height: 40px;
+  justify-content: flex-end;
+    background-color:rgb(229,124,216);
+    display: flex;
+    
+}
+#nztopblack>div{
+    margin: auto;
+    margin-left: 62%;
+    
+}
+#nztopblack>div a{
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    font-family:  ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    padding: 10px;
+    font-size: 14px;   
+}
+#nztopblack a:hover{
+    text-decoration: underline;
+}
+
+
