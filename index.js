@@ -12,8 +12,6 @@ let loginPass = ()=>{
         p.innerText = "Required";
         
         abc.append(p);
-
-
     }
 }
 
