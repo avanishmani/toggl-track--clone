@@ -1,8 +1,10 @@
-
+*{
+    font-family: 'GT Haptik Medium',sans-serif;
+}
 /* ---------------------------section - 1 --------------------------------- */
 
 #section-1{
-    width: 100%;
+    width: 96%;
     /* height: 1000px; */
     background-color: #2C1338;
     padding: 20px 30px 60px;
@@ -63,15 +65,17 @@
     background-color: #2C1338;
    border: 2px solid gray;
 }
-#signupBtn{
+.signupBtn{
     width: 200px;
     padding: 18px;
     border-radius: 30px;
     background-color: #E57CD8;
     font-weight: bold;
     border: none;
+    font-size: 15px;
+    color: white;
 }
-#signupBtn:hover{
+.signupBtn:hover{
     background-color: #564260;
     color: #FFF;
 }
@@ -188,7 +192,7 @@
     font-family: 'GT Haptik Medium',sans-serif;
 }
 
-#right-dir{
+.right-dir{
     width: 7px;
 }
 .removeUnderline{
@@ -200,6 +204,7 @@
 #section-2{
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 50px;
     /* height: 1000px; */
     background-color: #FFF3ED;
     /* border: 0.01px solid black; */
@@ -207,7 +212,7 @@
 
 #rk-heading-2{
     width: 55%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-size: 30px;
     margin: auto;
     text-align: center;
@@ -311,8 +316,16 @@
 }
 #contain-3-div>div>h4{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+#contain-3-div>div>p>a{
+    color: #564260;
+    text-decoration: none;
+}
+#contain-3-div>div>p>a:hover{
+    color: #E57CD8;
 }
 #contain-3-div>div:nth-child(1){
     background-color: #FCE5D8;
@@ -322,4 +335,132 @@
 }
 #contain-3-div>div:nth-child(3){
     background-color: #FAE5F7;
+}
+
+
+/* --------------------------------- Gradient CSS ------------------------ */
+
+#gradient{
+    background-color: #FFF3ED;
+    background: linear-gradient(7deg, #2C1338 50%,#FFF3ED 50%);
+    width: 100%;
+    height: 200px;
+}
+
+#gradient>img{
+    width: 450px;
+    margin-left: 57%;
+}
+
+
+/* ---------------------------- Section-3 CSS ------------------------------ */
+
+#section-3{
+    width: 100%;
+    /* height: 500px; */
+    background-color: #2C1338;
+    padding-bottom: 70px;
+}
+#section-3-heading{
+    width: 43%;
+    /* border: 1px solid white; */
+    margin-left: 220px;
+}
+#section-3-heading>h3{
+    font-size: 33px;
+    color: #FFF3ED;
+    font-family: 'GT Haptik Medium',sans-serif;
+    margin-top: 0px;
+
+}
+
+
+#section-3-second-div{
+    width: 75%;
+    /* height: 100px; */
+    margin: auto;
+    /* border: 1px solid rebeccapurple; */
+   padding-top: 40px;
+}
+
+#section-3-second-div>div{
+    
+    display: flex;
+    justify-content: space-between;
+}
+#section-3-second-div>div>div{
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 350px;
+    margin: auto;
+}
+#section-3-second-div>div>div>div{
+    padding: 30px;
+    background-color: #FFF3ED;
+    text-align: center;
+}
+.darkPurple{
+    color: #564260;
+}
+
+#section-3-second-div>div>div>div>div:nth-child(1){
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+#section-3-second-div>div>div>div>p:nth-child(2){
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+#section-3-second-div>div>div:nth-child(2)>div{
+    margin-top: 50px;
+}
+
+#section-3-second-div>div>div:nth-child(3)>div{
+    margin-top: 100px;
+}
+
+
+#companyNames{
+    width: 75%;
+    /* height: 100px; */
+    margin: auto;
+    
+}
+
+#companyNames>div{
+    /* border: 1px solid white; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#companyNames>div>div>img{
+    width: 85%;
+    /* border: 1px solid white; */
+    display: block;
+   margin: auto;
+}
+
+
+#section-3-last-div{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3-last-div>div:nth-child(2){
+    margin-left: 20px;
+    text-decoration: none;
+    color: #E57CD8;
+}
+
+#section-3-last-div>div:nth-child(2)>a{
+    /* margin-left: 20px; */
+    font-weight: bold;
+    text-decoration: none;
+    color: #E57CD8;
 }
