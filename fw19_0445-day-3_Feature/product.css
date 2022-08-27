@@ -18,13 +18,17 @@ html {
 
 /********** main div *************/
 #ap_menu_container {
-   width:fit-content;
-   margin: auto;
- 
+  
+   /* margin: 0%; */
+   /* padding: 1rem; */
+   width: 100%;
+ margin-top: 0%;
    
    
+  
    background-color: #2c1338;
-   position: sticky;
+   position: fixed;
+   
    z-index: 999;;
 }
 
@@ -32,13 +36,21 @@ html {
 
 
 
-ul{
- width: 100%;
+.ul{
+    margin: 0%;
+    padding: 1rem;
+    width: 100%;
  
-    padding: 1rem ; 
-   
-}
-li{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) !important;
+    justify-content: space-between !important;
+    align-items: center;
+    background-color: #2c1338;
+    position: fixed;
+    
+    z-index: 999;;
+   }
+.li{
     display: inline-block;
     box-sizing: border-box;
     /* margin:5%; */
@@ -48,12 +60,12 @@ li{
     /* font-size:large; */
     line-height: 24px;
     padding: 1rem ; 
-    letter-spacing: -.1px;
+    /* letter-spacing: -.1px; */
     color: #fff;
-    text-decoration: none
-    border
+    text-decoration: none;
+   
 }
-#ap_menu_container>ul>li>a {
+#ap_menu_container>.ul>div>a {
     /* font-style: normal; */
     /* font-weight: 300px; */
     /* font-size:large; */
@@ -64,7 +76,7 @@ li{
     text-decoration: none
     
 }
-#ap_menu_container>ul>li>a:hover{
+#ap_menu_container>.ul>div>a:hover{
     background-color: #fff;
     color: #2c1338;
     line-height: 24px;
@@ -463,7 +475,56 @@ h1 .rotate{
 #inonline img{
     width: fit-content;
 }
-
+@media all and (min-width:324px) and (max-width:1023px) {
+    #inonline{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1rem;
+        
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:2%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* gap: 10%; */
+    }
+    #final_signup_form{
+        padding: 1rem 0 1rem;
+      
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+      }
+      #side_box {
+   
+       
+        width: 100%;
+       
+        background: #FCE5D8;
+        color: #2C1338;
+        /* padding: 2rem 8rem; */
+       
+        margin:auto;
+        color: #2C1338;
+        background: #FCE5D8;
+        
+        
+    }
+    .ul{
+        margin: 0%;
+        padding: 1rem;
+        width: 100%;
+     
+        display: grid;
+        grid-template-columns: repeat(4,1fr) !important;
+        justify-content: space-between !important;
+        align-items: center;
+        background-color: #2c1338;
+        position:relative;
+        
+        z-index: -999;;
+       }
+    }
 .bbt{
    
     /* overflow: hidden; */
