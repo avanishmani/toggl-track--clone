@@ -1,0 +1,94 @@
+
+        #nzmain{
+            background-color: rgb(65,42,76);
+           
+        }
+        #nzheaders{
+            font-size: 70px;
+            font-family: 'Inter',sans-serif;
+            color: white;
+            margin: 0%;
+          padding-left: 100px;
+
+        }span{
+            font-style: italic;
+            color: rgb(229,124,216);
+            
+        }
+        #nzlogoo{
+            padding: 20px 30px;
+        }
+        #nzsecondlayer{
+            font-family: 'Inter',sans-serif;
+            margin: 0%;
+        }
+        #nzsecp{
+            color: white;
+            font-size: 20px;
+           
+            padding-left: 100px;
+            padding-right: 200px;
+            
+        }
+        hr{
+            color: white;
+        }
+        #nzformdata{
+            width: 600px;
+            background-color: rgb(44,19,56);
+            margin: auto;
+            color: white;
+            
+           
+        }
+        #nzinp{
+            padding: 40px ;
+           
+        }
+        #nzinp p{
+            padding-right: 30px ;
+        }
+        #nzlabl{
+            font-size: 20px;
+            
+        }
+        .nzimp{
+            width: 400px;
+            padding: 10px ;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: 'Inter',sans-serif;
+            background-color: transparent;
+            border: 2px solid gray;
+        }
+        
+        #nzsubmit{
+            width: 420px;
+            padding: 15px 15px;
+            margin-top: 15px;
+            border-radius: 50px;
+            background-color: rgb(229,124,216);
+            color: white;
+            border: transparent;
+        }
+        #nzsubmit:hover{
+            background-color: rgb(86,66,96);
+        }
+        .nzpinkky{
+    background-color: #E57CD8;
+    text-align: left;
+    font-size: 15px;
+    padding: 18px;
+    padding-left: 55px;
+}       
+    #nzreview{
+        margin: auto;
+        justify-content: center;
+      
+        text-align: center;
+    }
+    #nzreview img{
+        margin-top: 10px;
+      margin-bottom: 10px;
+    }
+ 

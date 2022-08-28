@@ -1,0 +1,1127 @@
+*{
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+/* ---------------------------section - 1 --------------------------------- */
+
+#section-1{
+    width: 96%;
+    /* height: 1000px; */
+    background-color: #2C1338;
+    padding: 20px 30px 60px;
+}
+#rk_heading-1{
+    width: 70%;
+    /* border: 1px solid white; */
+    margin:  auto;
+    color: white;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 350;
+    font-size: 35px
+}
+
+/* -------------------- Font Colors----------------------- */
+.purple{
+    color: #E57CD8;
+    
+}
+.white{
+    color: #FFF3ED;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+/* ----------------------------- section 1 second div ----------------------------- */
+
+#section_1_second_div{
+    width: 70%;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#section_1_second_div>div:nth-child(1){
+    width: 50%;
+    /* border: 1px solid yellow; */
+}
+
+
+#section_1_second_div>div:nth-child(1)>div:nth-child(1)>p{
+   
+    font-size: 25px;
+}
+
+/* -------------------------Gap between two tags------------------- */
+
+.div_gap{
+    margin-top: 20px;
+}
+
+/* -----------------------Input tags ------------------------------ */
+
+.inputBox{
+   
+    width: 70%;
+    height: 20px;
+    padding: 12px;
+    background-color: #2C1338;
+   border: 2px solid gray;
+}
+.signupBtn{
+    width: 200px;
+    padding: 18px;
+    border-radius: 30px;
+    background-color: #E57CD8;
+    font-weight: bold;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.signupBtn:hover{
+    background-color: #564260;
+    color: #FFF;
+}
+
+.smallSize{
+    font-size: 12px;
+}
+
+#section_1_second_div>div:nth-child(1)>div:nth-child(3){
+    /* width: 90%; */
+    /* border: 1px solid pink; */
+    display: flex;
+    justify-content: space-between;
+}
+#section_1_second_div>div:nth-child(1)>div:nth-child(3)>div:nth-child(2){
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.imgSize{
+    border-radius: 50px;
+    border: none;
+    /* margin-top: 20px; */
+}
+
+.imgSize>img{
+   
+    width: 30px;
+    border-radius: 50px;
+}
+
+/* ----------------------------------timer div------------------ */
+
+#section_1_second_div>div:nth-child(2){
+    /* border: 1px solid yellow; */
+    width: 50%;
+}
+
+
+#timer{
+    width: 350px;
+    padding: 10px;
+    padding-left: 25px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#timer>img{
+    width: 40px;
+}
+#section_1_second_div>div:nth-child(2)>div:nth-child(2){
+    /* border: 1px solid blue; */
+    width: 70%;
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+#section_1_second_div>div:nth-child(2)>div:nth-child(2)>p:nth-child(1){
+    font-size: 22px;
+    line-height: 1.35;
+
+}
+#section_1_second_div>div:nth-child(2)>div:nth-child(2)>p:nth-child(2){
+    float: right;
+}
+
+#section_1_third_div{
+    width: 65%;
+    /* border: 1px solid pink; */
+    margin: 50px auto;
+    background-color: #FCE5D8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#section_1_third_div>div{
+    display: flex;
+    width: 28%;
+    padding-right: 10px;
+    
+}
+#section_1_third_div>div:nth-child(1){
+    border-right: 1px solid black;
+}
+#section_1_third_div>div:nth-child(2){
+    border-right: 1px solid black;
+}
+
+#section_1_third_div>div>img{
+    margin-right: 20px;
+}
+
+#section_1_last-line{
+    width: 18%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_1_last-line>p:nth-child(1){
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+#section_1_zlast-line>p:nth-child(2){
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+.right-dir{
+    width: 7px;
+}
+.removeUnderline{
+   text-decoration: none;
+}
+
+/* --------------------------------Section-2 CSS Start -------------------------------- */
+
+#section-2{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    /* height: 1000px; */
+    background-color: #FFF3ED;
+    /* border: 0.01px solid black; */
+}
+
+#rk-heading-2{
+    width: 55%;
+    /* border: 1px solid black; */
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    /* margin-top: 0px; */
+}
+
+#rk-heading-2 h2{
+    color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+    /* font-weight: 400; */
+    line-height: 1.2;
+    
+}
+
+#contain-2-div{
+    width: 75%;
+    /* border: 1px solid blue; */
+    /* height: 100px; */
+    margin: auto;
+    display: flex;
+    
+}
+#contain-2-div>div{
+    width: 43%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 25px;
+}
+
+#contain-2-div>div>p{
+    font-weight: bold;
+
+}
+
+#section-2-div-1{
+    background-color: #FAE5F7;
+
+}
+
+#section-2-div-2{
+    background-color: #FCE5D8;
+    
+}
+
+.commonDiv>h3{
+    font-size: 25px;
+    margin-top: 10px;
+   
+}
+
+.commonBtn1{
+    width: 150px;
+    padding: 18px;
+    border-radius: 30px;
+    background-color: #E57CD8;
+    font-size: 15px;
+    border: none;
+    color: #FAE5F7;
+    font-weight: bolder;
+}
+.commonBtn1:hover{
+    background-color: #564260;
+    color: #FFF;
+}
+
+.commonDiv>div:nth-child(4)>img{
+    width: 400px;
+    margin-left: 70px;
+    margin-top: -20px;
+}
+
+
+.commonDiv>p>a{
+    font-size: 14px;
+    color: #564260;
+    font-weight: 100;
+}
+.dashLine{
+    width: 10px;
+    color: black;
+}
+
+#contain-3-div{
+    width: 75%;
+    /* border: 1px solid blue; */
+    /* height: 100px; */
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#contain-3-div>div{
+    width: 27%;
+    /* border: 1px solid red; */
+    padding: 20px 20px 15px;
+
+}
+#contain-3-div>div>p:nth-child(1){
+    font-weight: bold;
+}
+#contain-3-div>div>h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #412A4C;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+#contain-3-div>div>p>a{
+    color: #564260;
+    text-decoration: none;
+}
+#contain-3-div>div>p>a:hover{
+    color: #E57CD8;
+}
+#contain-3-div>div:nth-child(1){
+    background-color: #FCE5D8;
+}
+#contain-3-div>div:nth-child(2){
+    background-color: #ffebbd;
+}
+#contain-3-div>div:nth-child(3){
+    background-color: #FAE5F7;
+}
+
+
+/* --------------------------------- Gradient CSS ------------------------ */
+
+#gradient{
+    background-color: #FFF3ED;
+    background: linear-gradient(7deg, #2C1338 50%,#FFF3ED 50%);
+    width: 100%;
+    height: 200px;
+}
+
+#gradient>img {
+    width: 35%;
+    margin-left: 57%;
+}
+
+
+/* ---------------------------- Section-3 CSS ------------------------------ */
+
+#section-3{
+    /* border: 1px solid white; */
+    width: 100%;
+    /* height: 500px; */
+    background-color: #2C1338;
+    padding-bottom: 70px;
+}
+#section-3-heading{
+    width: 43%;
+    /* border: 1px solid white; */
+    margin-left: 15%;
+    
+}
+#section-3-heading>h3{
+    font-size: 200%;
+    color: #FFF3ED;
+    font-family: 'GT Haptik Medium',sans-serif;
+    margin-top: 0px;
+
+}
+
+.upArrow{
+    width: 35px;
+    height: 25px;
+    margin-top: 35px;
+    /* margin-right: 7px; */
+}
+
+#section-3-second-div{
+    width: 75%;
+    /* height: 100px; */
+    margin: auto;
+    /* border: 1px solid rebeccapurple; */
+   padding-top: 40px;
+}
+
+#section-3-second-div>div{
+    
+    display: flex;
+    justify-content: space-between;
+}
+#section-3-second-div>div>div{
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 350px;
+    margin: auto;
+}
+#section-3-second-div>div>div>div{
+    padding: 30px;
+    background-color: #FFF3ED;
+    text-align: center;
+}
+.darkPurple{
+    color: #564260;
+}
+
+#section-3-second-div>div>div>div>div:nth-child(1){
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+#section-3-second-div>div>div>div>div>h1{
+    font-size: 40px;
+
+}
+#section-3-second-div>div>div>div>p:nth-child(2){
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+#section-3-second-div>div>div:nth-child(2)>div{
+    margin-top: 50px;
+}
+
+#section-3-second-div>div>div:nth-child(3)>div{
+    margin-top: 100px;
+}
+
+
+#companyNames{
+    width: 75%;
+    /* height: 100px; */
+    margin: auto;
+    
+}
+
+#companyNames>div{
+    /* border: 1px solid white; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#companyNames>div>div>img{
+    width: 85%;
+    /* border: 1px solid white; */
+    display: block;
+   margin: auto;
+}
+
+
+#section-3-last-div{
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3-last-div>div:nth-child(2){
+    margin-left: 20px;
+    text-decoration: none;
+    color: #E57CD8;
+}
+
+#section-3-last-div>div:nth-child(2)>a{
+    /* margin-left: 20px; */
+    font-weight: bold;
+    text-decoration: none;
+    color: #E57CD8;
+}
+
+/* ------------------------------------------- Section-4 CSS Start----------------------------- */
+
+#section-4{
+    width: 100%;
+    /* border: 1px solid black; */
+    /* height: 1000px; */
+    background-color: #FFF3ED;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+#section-4-firstDiv{
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#section-4-firstDiv>div{
+    width: 45%;
+    /* border: 1px solid black; */
+}
+
+#section-4-firstDiv>div>h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #2C1338;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+#section-4-firstDiv>div>p{
+    color: #2C1338;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+#section-4-firstDiv>div:nth-child(2)>img{
+    width: 100%;
+}
+
+#section-4-firstDiv>div:nth-child(2){
+    position: relative;
+}
+
+#section-4-firstDiv>div:nth-child(2)>button{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:#2C1338 ;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+}
+
+#section-4-firstDiv>div:nth-child(2)>button:hover{
+    top: 46%;
+    left: 51%;
+    background-color: #564260;
+}
+
+#section-4-secondDiv{
+    width: 70%;
+    /* height: 100px; */
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    
+}
+
+#section-4-secondDiv>div{
+    width: 30%;
+    /* border: 1px solid black; */
+
+}
+#section-4-secondDiv>div:nth-child(1)>img{
+    width: 150px;
+}
+
+#section-4-secondDiv>div:nth-child(2)>img{
+    width: 250px;
+}
+
+#section-4-secondDiv>div:nth-child(3)>img{
+    width: 150px;
+}
+
+#section-4-secondDiv>div>p{
+    color: #564260;
+    line-height: 1.5;
+}
+#section-4-secondDiv>div>h2{
+    color: #2C1338;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+/* --------------------------------------------------- Sectoin-5 CSS Start --------------------------------------------- */
+
+
+/* final div started */
+
+#final{
+    width: 100%;
+    background: #412A4C;
+    font-family: 'Inter', sans-serif;
+    padding: 60px 30px;
+    text-align: center;
+   
+  }
+  #final_inside{
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    margin: auto;
+    max-width: 1200px;
+    /* border: red 1px solid; */
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+  }
+  /* #final_heading{
+  
+  } */
+  #final_heading_font{
+      color: #FFF3ED;
+      font-family: 'GT Haptik Medium',sans-serif;
+      font-weight: 600;
+      line-height: 1.2;
+      font-size: clamp(3rem * 0.55, 3.5vw, 3rem);
+      margin: 30px auto;
+      max-width: 850px;
+      text-align: center;
+  }
+  #final_signup{
+    padding-bottom: .25rem;
+    /* border: 1px solid white; */
+  }
+  #final_signup_form {
+    padding: 1rem 0px;
+    margin: 0px auto;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+  
+  #final_signup_form_1box {
+    width: 115%;
+    max-width: 500%;
+    background: #2C1338;
+    padding: 1rem 1.5rem;
+    margin-left: 50px;
+    /* border: 1px yellow solid; */
+    /* position: absolute; */
+    margin-left: -50px;
+}
+  #design{
+    /* position: relative; */
+    transform: translate(30%, 0%) ;
+    
+  }
+  
+  #final_signup_form_font {
+    margin-bottom: 0.25rem;
+    color: #FCE5D8;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: bolder;
+    line-height: 1.2;
+    font-size: clamp(3rem * 0.55, 3.5vw, 2rem);
+    text-align: inherit;
+    width: 90%;
+    margin-bottom: 5%;
+}
+  
+  #signup_form_para_in{
+    color: #FCE5D8;
+  line-height: 1.5;
+  font-size: clamp( 1rem * 0.95, 1vw, 3rem );
+  margin-bottom: 10px;
+  /* padding: 55px 45px; */
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  /* font-size: 17px; */
+  }
+  
+  #final_signup_form_flex {
+    display: flex;
+    justify-content: space-around;
+    color: #2C1338;
+    text-align: center;
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 1rem;
+    /* gap: .; */
+}
+  .signup_form_flex_btn{
+      font-size: 16px;
+      background: white;
+      border: none;
+
+      align-items: center;
+      height: 52px;
+      width: 240px;
+      cursor: pointer;
+      border-radius: 50px;
+      /* border: 1px solid blue; */
+      /* justify-content: center; */
+      display: flex;
+      /* padding-right: 15px;
+      padding-left: 10px; */
+      padding: 15px 20px;
+      transition: background-color 150ms linear,color 150ms linear;
+      
+  }
+  .signup_form_flex_btn:hover{
+    background: #FFF3ED;
+  }
+  .google_final_p{
+    font-weight: 600;
+    color: #2C1338;
+  }
+  
+  #signup_form_last_btn:hover{
+    background: #FFF3ED;
+  }
+  
+  #google_final{
+    color: black;
+    border: none;
+    font-weight: 600;
+  }
+  #google_final:hover{
+    background-color: transparent;
+  }
+  #signup_form_last_btn{
+   gap: 10px;
+   margin-top: 20px;
+   width: 95%;
+   padding-left:30% ;
+   align-items: center;
+  }
+  #signup_form_last_btn>i{
+    font-size: 25px;
+   
+  }
+  #final_signup_form_para {
+    font-family: 'GT Haptik Medium',sans-serif;
+    color: #FCE5D8;
+    line-height: 1.5;
+    font-size: medium;
+    margin-top: 1rem;
+}
+  .final_signup_span{
+    text-decoration: underline #E57CD8;
+    cursor: pointer;
+  }
+  
+  .final_signup_span:hover{
+    color: #E57CD8;
+  
+  }
+  
+  
+  #side_box {
+    /* text-align: inherit; */
+    width: 90%;
+    box-sizing: border-box;
+    margin-left: 90px !important;
+    background: #FCE5D8;
+    color: #2C1338;
+    padding: 3rem 6rem;
+    border: 1px solid black;
+    margin: auto;
+    color: #2C1338;
+    background: #FCE5D8;
+    margin-top: 15rem;
+}
+  
+  #side_box_head{
+    color: #2C1338;
+      font-family: 'GT Haptik Medium',sans-serif;
+      font-weight: bolder;
+      line-height: 1.25;
+      font-size: clamp(2rem * 0.8, 2.5vw, 2rem);
+      text-align: left;
+      margin-left: 40px;
+  }
+  
+  #side_box_para {
+    color: #2C1338;
+    line-height: 1.5;
+    font-size: clamp( 1.125rem * 0.9, 1.25vw, 1.125rem );
+    /* text-align: left; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+.txt{
+padding: 1rem 2rem;
+border: none;
+border-radius: 50px;
+background-color: #E57CD8;
+color: #fff;
+}
+.txt a{
+    text-decoration: none;
+    color: #fff;
+}
+.txt:hover{
+    background-color: #494949;
+}
+/* final div ended */
+
+/* --------------------------------------------------- Section-5 CSS End ------------------------------------------------- */
+
+/* ----------------------------------------------Responsive Sectioon-1 media --------------------------------- */
+
+@media all and (min-width :800px) and (max-width :1000px){
+    /* *{
+        box-sizing: border-box;
+    } */
+    #Navbar{
+        box-sizing: border-box;
+        width: 100%;
+        padding: .25rem .5rem;
+    }
+    #Navbar #nzimage>a>img{
+        width:0%;
+    }
+    #section-1{
+        box-sizing: border-box;
+        width: 100%;
+        /* height: 1000px; */
+        background-color: #2C1338;
+        padding: 20px 30px 60px;
+    }
+    #rk_heading-1{
+        width: 80%;
+        font-weight: 150;
+        font-size: 20px
+    }
+    #section_1_second_div{
+        width: 80%;
+        /* border: 1px solid white; */
+        
+        display: flex;
+        flex-direction: column;
+    }
+    #section_1_second_div>div:nth-child(1){
+        width: 90%;
+        /* border: 1px solid yellow; */
+    }
+    #section_1_second_div>div:nth-child(1)>div:nth-child(1){
+       
+        /* border: 1px solid white; */
+        width: 70%;
+    }
+    #section_1_second_div>div:nth-child(1)>div:nth-child(1)>p{
+        font-size: 20px;
+    }
+    .inputBox{
+   
+        width: 50%;
+        height: 20px;
+        padding: 12px;
+        background-color: #2C1338;
+       border: 2px solid gray;
+    }
+    #section_1_second_div>div:nth-child(1)>div:nth-child(3){
+        width: 85%;
+        /* border: 1px solid pink; */
+        
+    }
+    #section_1_second_div>div:nth-child(2){
+        margin-left: 250px;
+        /* border: 1px solid yellow; */
+        /* width: 50%; */
+    }
+    #section_1_second_div>div:nth-child(2)>div:nth-child(2){
+        /* border: 1px solid blue; */
+        width: 100%;
+        margin: 40px auto;
+        font-size: 20px;
+    }
+    #section_1_third_div{
+        width: 95%;
+    }
+    #section_1_last-line{
+        width: 38%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    /* --------------------------------------- Secction-1 End --------------------------- */
+
+    /* --------------------------------------- Section-2 Start----------------------------- */
+
+    #section-2{
+       box-sizing: border-box;
+    }
+    
+    #rk-heading-2{
+        width: 85%;
+        /* border: 1px solid black; */
+        font-size: 20px;
+    }
+    #contain-2-div{
+        width: 95%;
+        /* border: 1px solid blue; */
+        /* height: 100px; */
+        margin: auto;
+        display: flex;
+        
+    }
+    #contain-2-div>div{
+        width: 40%;
+       
+        /* border: 1px solid red; */
+      
+    }
+    .commonDiv>div:nth-child(4)>img{
+        width: 80%;
+        margin-left: 70px;
+        margin-top: -5px;
+    }
+
+    #contain-3-div{
+        width: 90%;
+       /* display: grid;
+       grid-template-columns: repeat(2,1fr); */
+       row-gap: 20px;
+       column-gap: 20px;
+    }
+
+    #contain-3-div>div{
+        width: 100%;
+        /* border: 1px solid red; */
+        padding: 20px 20px 15px;
+    
+    }
+    /* ---------------------------------------- Secction-2 End ------------------------------------ */
+
+    #section-3-heading{
+        width: 50%;
+        /* border: 1px solid white; */
+        margin-left: 15%;
+        
+    }
+    #section-3-heading>h3{
+        font-size: 150%;
+        color: #FFF3ED;
+        font-family: 'GT Haptik Medium',sans-serif;
+        margin-top: 0px;
+    
+    }
+
+    #section-3-second-div{
+        width: 90%;
+        /* height: 100px; */
+        margin: auto;
+        /* border: 1px solid rebeccapurple; */
+        /* padding-top: 40px; */
+    }
+    
+    #section-3-second-div>div>div{
+        /* border: 1px solid white; */
+        width: 32%;
+        /* height: 350px; */
+        margin: auto;
+    }
+
+    #section-3-second-div>div{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #section-3-second-div>div>div>div>div>h1{
+        font-size: 40px;
+    
+    }
+    #section-3-second-div>div>div>div>p:nth-child(2){
+        /* border: 1px solid black; */
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    
+    #section-3-second-div>div>div:nth-child(2)>div{
+        margin-top: 0px;
+    }
+    
+    #section-3-second-div>div>div:nth-child(3)>div{
+        margin-top: 0px;
+    }
+
+
+
+    /* --------------------------------------------Section-4 CSS-------------------------- */
+
+    
+    #section-4-firstDiv{
+        width: 95%;
+        /* border:1px solid black; */
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #section-4-firstDiv>div{
+        width: 49%;
+        /* border: 1px solid black; */
+    }
+
+    #section-4-firstDiv>div>h3{
+        font-size: 160%;
+        font-weight: 600;
+        color: #2C1338;
+        font-family: 'GT Haptik Medium',sans-serif;
+    }
+    
+    #section-4-firstDiv>div>p{
+        color: #2C1338;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    
+    #section-4-firstDiv>div:nth-child(2)>img{
+        width: 100%;
+    }
+    
+    #section-4-firstDiv>div:nth-child(2){
+        position: relative;
+    }
+    
+    #section-4-firstDiv>div:nth-child(2)>button{
+    
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color:#2C1338 ;
+      border: none;
+      color: white;
+      font-size: 16px;
+      padding: 20px 30px;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+      text-align: center;
+    }
+    
+    #section-4-firstDiv>div:nth-child(2)>button:hover{
+        top: 46%;
+        left: 51%;
+        background-color: #564260;
+    }
+    
+    #section-4-secondDiv{
+        width: 95%;
+        /* height: 100px; */
+        margin: auto;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+        
+    }
+    
+    #section-4-secondDiv>div{
+        width: 30%;
+        /* border: 1px solid black; */
+    
+    }
+    #section-4-secondDiv>div:nth-child(1)>img{
+        width: 150px;
+    }
+    
+    #section-4-secondDiv>div:nth-child(2)>img{
+        width: 250px;
+    }
+    
+    #section-4-secondDiv>div:nth-child(3)>img{
+        width: 150px;
+    }
+    
+    #section-4-secondDiv>div>p{
+        color: #564260;
+        line-height: 1.5;
+    }
+    #section-4-secondDiv>div>h2{
+        color: #2C1338;
+        font-family: 'GT Haptik Medium',sans-serif;
+    }
+
+  
+}
+@media all and (min-width:324px) and (max-width:1023px) {
+    #final_signup_form{
+        padding: 1rem 0 1rem;
+      
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+      }
+      #side_box {
+   
+       
+        width: 100%;
+       
+        background: #FCE5D8;
+        color: #2C1338;
+        /* padding: 2rem 8rem; */
+       
+        margin:auto;
+        color: #2C1338;
+        background: #FCE5D8;
+        
+        
+    }
+    .ul{
+        margin: 0%;
+        padding: 1rem;
+        width: 100%;
+     
+        display: grid;
+        grid-template-columns: repeat(4,1fr) !important;
+        justify-content: space-between !important;
+        align-items: center;
+        background-color: #2c1338;
+        position:relative;
+        
+        z-index: -999;;
+       }
+}
