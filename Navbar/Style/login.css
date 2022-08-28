@@ -1,0 +1,173 @@
+
+        *{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0%;
+            padding: 0%;
+        }
+        .nzcont{
+    background-color: rgba(65,42,76,255);
+}
+.nzwrap {
+    text-align: center;
+     width:100%;
+     height:450px;
+     background-image: url("https://public-assets.toggl.com/b/static/a848ad9070fcf959a459fa1e878d2abb/c0583/hero-laptops.jpg");
+     color: white;
+     z-index: -1;
+  }
+.nzhidden{
+    display: none;
+}
+
+.nzmain{
+    background-color:rgb(44,19,56);
+    width: 40%;
+    margin: auto;
+    padding:4%;
+    height:580px;
+    margin-top: -120px;
+    z-index: 1;
+}
+.nzforgot {
+    color: white;
+    font-weight: 700;
+    border-bottom: 0.5px solid rgb(229,124,216);
+}
+.nzh2log{
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+.nzbottom > p{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.nzlinkbutton {
+    width:25%;
+    justify-content: center;
+    /* height:85px; */
+    border-radius: 15px;
+    background-color: rgb(229,124,216);
+    color: white;
+    margin-bottom: 5%;
+    text-decoration: none;
+    padding: 10px;
+}
+.nzbottom {
+    text-align: center;
+}
+.nzh3log{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.333;
+    margin-top: 5%;
+    text-align: center;
+    /* margin-bottom: 5px; */
+}
+
+.nzbtn2log{
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-size: 1rem;
+    padding: 14px 50px;
+    background-color: #E57CD8;
+    color: #FFF;
+    text-align: center;
+    width:100%;
+    border-radius: 25px;
+    margin-top: 10px;
+    box-sizing: border-box; 
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.28;
+    
+}
+
+.nzbtn2log:hover{
+    background-color: rgba(65,42,76,255);
+}
+ .nzgoogle{
+     background-color: white;
+     width:50%;
+     margin-left:10px;
+     margin:auto;
+     color: black;
+     font-size: 18px;
+     justify-content: center;
+     height: 50px;
+     border-radius: 25px;
+ }
+ .nzforms > label{
+    color:white;
+    font-size: 25px;
+ }
+ .nzforms > input {
+    background: transparent;
+    border: 2px solid rgb(171,160,175);
+    height: 50px;
+    width: 100%;
+   margin-top: 5px;
+   margin-bottom: 30px;
+    padding-left: 15px;
+    caret-color: #2C1338;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.28;
+    color: #FCE5D8;
+ }
+ .nztop{
+     width:100%;
+     margin:auto;
+     display:flex;
+     gap:20px;
+     margin-top: 5%;
+ }
+ 
+   
+.nzcentered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin-top: -240px;
+    color:rgb(255,243,237);
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 70px;
+  }
+
+  .nzbtnlog{
+      width: 150px;
+      font-family: 'GT Haptik Medium',sans-serif;
+      font-size: 1rem;
+      padding: 14px 50px;
+      background-color: #E57CD8;
+      color: #FFF;
+      text-align: center;
+      border-radius: 25px;
+      font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.28;
+}
+
+  .nzbtn3log{
+    width: 500px;
+    font-family: 'GT Haptik Medium',sans-serif;
+    font-size: 1rem;
+    padding: 14px 50px;
+    background-color: white;
+    color:black;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.28;
+}
+  .nzgoogleimg{
+      width:20px;
+      height: 20px;
+     
+  }

@@ -1,0 +1,270 @@
+#nztopblack{
+    width: 100%;
+   height: 40px;
+  justify-content: flex-end;
+    background-color:rgb(229,124,216);
+    display: flex;
+    
+}
+a>img{
+  width: 100%;
+}
+#nztopblack>div{
+    margin: auto;
+    margin-left: 62%;
+    
+}
+#nztopblack>div a{
+    color: rgb(51, 50, 50);
+    text-decoration: none;
+    font-family:  ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    padding: 10px;
+    font-size: 14px;   
+}
+#nztopblack a:hover{
+    text-decoration: underline;
+}
+
+
+
+      * {
+        font-family: ‘Poppins’, sans-serif;
+      }
+      .dropdown {
+        float: left;
+        overflow: hidden;
+
+        /* border: 3px solid darkcyan; */
+      }
+
+      .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin-top: 10px;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fce5d8;
+        width: 100%;
+        padding: 15px;
+        left: 0;
+
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        /* justify-content: space-evenly;
+            align-items: center; */
+        /* border: 3px solid darkgreen; */
+        color: white;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      .show {
+        display: block;
+      }
+      #nzcontainer {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 80px);
+        gap: 10px;
+        margin: auto;
+        padding-top: 10px;
+        color: black;
+        /* border: 3px solid red; */
+      }
+      #nzcontainer > div {
+        border-radius: 10px;
+      }
+
+      #nzcontainer > div > div {
+        display: flex;
+        padding: 0px 20px;
+        font-size: 14px;
+      }
+      #nzcontainer2 {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repeat(3, 80px); */
+        gap: 10px;
+        margin: auto;
+        padding-top: 10px;
+        color: black;
+        /* border: 3px solid red; */
+      }
+      #nzcontainer2 > div {
+        border-radius: 10px;
+      }
+
+      #nzcontainer2 > div > div {
+        display: flex;
+        padding: 0px 20px;
+        font-size: 14px;
+      }
+      #nzcontainer3 {
+        display: grid;
+        width: 100%;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repeat(3, 80px); */
+        gap: 10px;
+        margin: auto;
+        padding-top: 10px;
+        color: black;
+        /* border: 3px solid red; */
+      }
+      #nzcontainer3 > div {
+        border-radius: 10px;
+      }
+
+      #nzcontainer3 > div > div {
+        display: flex;
+        padding: 0px 20px;
+        font-size: 14px;
+      }
+
+      .nztitle {
+        margin-top: 0px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 20px;
+      }
+      h3:hover {
+        animation: tilt-shaking 0.3s infinite;
+      }
+      @keyframes tilt-shaking {
+        0% {
+          transform: rotate(0deg);
+        }
+        25% {
+          transform: rotate(5deg);
+        }
+        50% {
+          transform: rotate(0eg);
+        }
+        75% {
+          transform: rotate(-5deg);
+        }
+        100% {
+          transform: rotate(0deg);
+        }
+      }
+      .nzcenter {
+        width: 350px;
+        margin-top: -25px;
+        margin-left: 85px;
+        color: gray;
+      }
+      .nzmenu {
+        box-sizing: border-box;
+        font-weight: 100;
+        /* border: 3px solid red; */
+        margin-left: 0%;
+        
+      }
+
+      .nzmenu:hover {
+        color: #e57cd8;
+      }
+      .nznavbar {
+        box-sizing: border-box;
+        padding: .25rem .5rem;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        background-color: #2c1338;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 0px 30px; */
+
+        /* border: 3px solid red; */
+      }
+      #nzmainName {
+        color: rgb(153, 129, 135);
+        padding-left: 25px;
+        font-weight: bold;
+      }
+      #nzimage {
+        /* padding: 10px; */
+        /* border: 3px solid orange; */
+        box-sizing: border-box;
+
+        margin: 2%;
+        width: 8%;
+        /* width: 200px; */
+      }
+
+      #nzimage > img {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* padding-top: 10px;
+        padding-left: 15px; */
+      }
+      .nzlast {
+        text-align: center;
+        /* position: fixed; */
+        box-sizing: border-box;
+        display: flex;
+        padding: .25rem 2rem;
+          width: 55%;
+        justify-content: space-around;
+        /* border: 3px solid yellow; */
+        align-items: center;
+        height: fit-content;
+        margin-top: .5rem;
+        
+        
+      }
+      .nzlast p {
+        color: white;
+        width: 100%;
+       
+      }
+
+      .nzlast > p:hover {
+        color: #e57cd8;
+      }
+
+      #nztry {
+        background-color: #fce5d8;
+        width: 100%;
+        color: #e57cd8;
+        border-radius: 30px;
+        padding: .25rem  .5rem;
+        /* padding: 10px 20px; */
+      }
+
+      #nztry:hover {
+        background-color: #503e59;
+      }
+      #nzhead {
+        display: flex;
+        gap: 60%;
+      }
+
+  
