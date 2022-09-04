@@ -809,6 +809,14 @@ color: #fff;
     /* *{
         box-sizing: border-box;
     } */
+    #Navbar{
+        box-sizing: border-box;
+        width: 100%;
+        padding: .25rem .5rem;
+    }
+    #Navbar #nzimage>a>img{
+        width:0%;
+    }
     #section-1{
         box-sizing: border-box;
         width: 100%;
@@ -1117,4 +1125,3 @@ color: #fff;
         z-index: -999;;
        }
 }
-
